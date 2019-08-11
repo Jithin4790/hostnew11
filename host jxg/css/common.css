@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: black;
+}
+
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.header {
+	padding: 20px 0;
+}
+.logo {
+	font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+.menu-sec li {
+	float: left;
+    padding: 8px 22px;
+}
+.menu-sec li a {
+	font-size: 18px;
+	color: #fff;
+	padding-bottom: 3px;
+}
+.menu-sec li a:hover, {
+	color: #ff9b00;
+	border-bottom: 2px solid #ff9b00;
+}
+.menu-sec li:last-child {
+	padding-right: 0;
+}
+.menu-sec li .active {
+	color: #ff9b00;
+	border-bottom: 2px solid #ff9b00;
+}
+
+.left-side {
+	width: 1000px;
+	padding-top: 100px;
+}
+.left-side h6 {
+	font-size: 18px;
+	color: #ff9b00;
+}
+.left-side h2 {
+	font-size: 44px;
+	font-weight: bold;
+	color: #ff9b00;
+	padding: 15px 0;
+}
+.left-side h2 span {
+	color: #fff;
+}
+.left-side p {
+	font-size: 23px;
+	color: #fff;
+	padding-bottom: 20px;
+}
+.btn {
+	font-size: 12px;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 15px;
+    margin-right: 2px;
+    border: 1px solid #fff;
+}
+.btn:hover {
+	color: #000;
+	background: #ff9b00;
+	border: 1px solid #ff9b00;
+}
+.right-side {
+	width: 600px;
+}
+img {
+      float: right;
+    width: 232px;
+    height: 246px;
+
+
+}
+
+
+{box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  width: 10%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+
+
+
+
+
+.skills {
+  text-align: right;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: white;
+}
+.mcp {width: 90%; background-color: #0000ff;}
+.mcsa {width: 90%; background-color: #3cb371;}
+.mcse {width: 90%; background-color: #6a5acd;}
+.ccna {width: 90%; background-color:#ffa500;}
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+
+.php {width: 60%; background-color: #808080;}
+.mysql {width: 60%; background-color: #ee82ee;}
+{box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
